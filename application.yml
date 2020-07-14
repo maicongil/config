@@ -1,3 +1,6 @@
+eureka:
+  instance:
+    preferIpAddress: true
 management:
   endpoints:
     web:
