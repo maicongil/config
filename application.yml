@@ -15,4 +15,13 @@ management:
     web:
       exposure:
         include: '*'
+        
+application:
+  feeds:
+    - 'JAVA'
+    - 'SPRING'
+    - 'MICROSERVICE'
+    - 'CLOUD'
+
+
 
