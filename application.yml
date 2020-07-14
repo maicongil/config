@@ -20,8 +20,9 @@ application:
   feeds:
     - 'JAVA'
     - 'SPRING'
-    - 'MICROSERVICE'
+    - 'MICROSERVICES'
     - 'CLOUD'
+    - 'JAVASCRIPT'
 
 
 
