@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    stream:
+      function:
+        definition: processMessage
+      bindings:
+        processMessage-in-0:         
+          destination: messageInput
+        processMessage-out-0:
+          destination: messageFeedback
+        
