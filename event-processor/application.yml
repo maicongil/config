@@ -1,1 +1,12 @@
 
+spring:
+  cloud:
+    stream:
+      function:
+        definition: sendMessage;receiveMessageFeedback
+      bindings:
+        sendMessage-out-0:         
+          destination: messageInput
+        receiveMessageFeedback-in-0:
+          destination: messageFeedback
+        
