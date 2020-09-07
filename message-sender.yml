@@ -6,6 +6,8 @@ spring:
       bindings:
         processMessage-in-0:         
           destination: messageInput
+          consumer.headerMode: embeddedHeaders
         processMessage-out-0:
           destination: messageFeedback
+          producer.headerMode: embeddedHeaders
         
