@@ -8,5 +8,6 @@ spring:
         sendMessage-out-0:         
           destination: messageInput
         receiveMessageFeedback-in-0:
+          group: eventProcessor
           destination: messageFeedback
         
