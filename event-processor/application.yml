@@ -10,4 +10,5 @@ spring:
         receiveMessageFeedback-in-0:
           group: eventProcessor
           destination: messageFeedback
+          consumer.headerMode: embeddedHeaders
         
