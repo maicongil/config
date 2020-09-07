@@ -7,6 +7,7 @@ spring:
       bindings:
         sendMessage-out-0:         
           destination: messageInput
+          producer.headerMode: embeddedHeaders
         receiveMessageFeedback-in-0:
           group: eventProcessor
           destination: messageFeedback
