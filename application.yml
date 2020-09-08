@@ -33,7 +33,7 @@ application:
     - 'MICROSERVICES'
     - 'CLOUD'
     - 'JAVASCRIPT'
-    - 'TDD'
+    - 'BDD'
 
 
 
